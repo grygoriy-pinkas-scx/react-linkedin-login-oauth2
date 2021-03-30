@@ -36,7 +36,7 @@ class LinkedInPage extends Component {
           supportIE
           redirectPath='/linkedin'
         >
-          <img src={require('./assets/linkedin.png')} alt="Log in with Linked In" style={{ maxWidth: '180px' }} />
+          <img src="" alt="Log in with Linked In" style={{ maxWidth: '180px' }} />
         </LinkedIn>
         {!code && <div>No code</div>}
         {code && <div>Code: {code}</div>}
